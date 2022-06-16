@@ -1,0 +1,114 @@
+.header{
+    background-color: purple;
+    margin-bottom: auto;
+    
+}
+
+body {
+  background-color: whitesmoke;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%; 
+  text-align: center;
+  margin-bottom: auto;
+}
+
+table{
+    max-width: 600px;
+    margin: auto;
+}
+
+#info_form {
+    max-width: 500px;
+    margin: auto;
+}
+
+label {
+    display: inline-block;
+    font-weight: 900;
+    width: 270px;  
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+div form input.submit_button {
+  margin-bottom: 20px;
+  width: 100px;
+  text-align:center;
+}
+
+/*  https://stackoverflow.com/questions/6712946/add-borders-on-tbody 
+    https://www.w3schools.com/tags/tag_tbody.asp
+    https://stackoverflow.com/questions/2454936/css-select-th-tags-only-within-the-tbody-of-a-table/2454940
+*/
+
+tbody > tr > td {
+  background-color: #A9A9A9;               
+  color: black;
+  text-align: center;
+  width: 30px;
+}
+
+/*  https://stackoverflow.com/questions/10301776/first-child-selector-within-table 
+    https://stackoverflow.com/questions/2454936/css-select-th-tags-only-within-the-tbody-of-a-table/2454940*/
+tbody > tr:first-child > td {
+  background-color: #FF7F50;
+  color: black;
+}
+
+/* https://css-tricks.com/complete-guide-table-element/ */
+tbody > tr > td:first-child {
+  background-color: #FF7F50;
+  color: black;
+}
+
+/* https://stackoverflow.com/questions/10301776/first-child-selector-within-table */
+tbody > tr:first-child > td:first-child {
+  background-color: #ffffff;
+  color: black;
+  opacity: 0;
+}
+
+.info_class {
+  padding: 5px;
+  color: red;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
+
+h1{
+  color: white;
+  font-size: 500%;
+  font-weight: 800;
+  text-align: center;
+}
+
+/* https://www.w3schools.com/colors/color_tryit.asp?hex=FFE4C4 */
+.instruction{
+  color: blue;
+  margin-top: auto;
+  font-size: 200%;
+  font-weight: 600;
+}
+
+input {
+  color: black;
+  text-align: center;
+  font-size: large;
+}
+
+
+
+
+
+
+
+
+
+
+
+
